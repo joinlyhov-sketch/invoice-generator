@@ -106,7 +106,7 @@ const handleExportImage = () => {
         </header>
 
         <!-- Main Content -->
-        <main class="max-w-7xl mx-auto px-6 py-8">
+        <main class="w-85 mx-auto px-6 py-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <!-- Left Column: Form & Template Selection -->
                 <div class="space-y-6">

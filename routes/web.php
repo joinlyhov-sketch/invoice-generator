@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -11,6 +12,7 @@ Route::get('/invoice', function () {
     return Inertia::render('Invoice/Index');
 })->name('invoice.index');
 
+Route::get('/api/services', [ServiceController::class, 'index'])->name('services.index');
 
 
 // Route::get('/', function () {
